@@ -1,0 +1,130 @@
+*{
+	font-family:"Garamond";
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul {
+	margin:0;
+	text-align: center;
+	font-size: 1.5em;
+	border-bottom: 2px solid black;
+}
+
+.nav li {
+	display: inline;
+	padding: 0 2%;
+}
+
+.nav a {
+	display: inline-block;
+	padding: 1em;
+	color: navy;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: rgba(255, 255, 255, 0.3)
+}
+
+.main-header {
+	background-color: tan;
+	background-size: cover;
+	
+}
+
+.home-title {
+	text-align: center;
+	font-size: 1.7em;
+}
+
+.button-layout {
+	display: flex;
+    flex-flow: row wrap;
+	text-align: center;
+    justify-content: center;
+    width: 100%;
+	padding-top: 20px;
+}
+
+.home-buttons {
+	background-color: #A9D0F5;
+	color: black;
+    margin: 10px;
+    border: 5px solid #dcdcdc;
+    width: 200px;
+}
+
+
+.button-layout div:hover {
+	background-color: rgba(0, 0, 255, 0.3)
+}
+
+
+.button-link {
+	color: #424242;
+	font-size: 1.5em;
+	text-decoration: none;
+	padding-top: 25px;
+}
+
+.button-title {
+	font-weight: bold;
+	border-bottom: solid black 2px;
+	pointer-events: none
+}
+
+.button-content {
+	font-size: 0.8em;
+	display: inline-block;
+	padding: 10px;
+}
+
+.button-content div:hover {
+	background-color: rgba(0, 0, 255, 0.3)
+}
+
+.button-title-short {
+	font-weight: bold;
+	border-bottom: solid black 2px;
+	pointer-events: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+.doc-layout {
+	display: flex;
+	padding-top: 20px;
+	max-width: 750px;
+}
+
+.doc-img-block {
+	display: flex;
+    flex-flow: wrap;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+	padding-top: 20px;
+}
+
+.doc-img-sub {
+	display: flex;
+    flex-flow: wrap;
+	text-align: center;
+    justify-content: center;
+    width: 100%;
+	padding-bottom: 20px;
+}
+
+.about-paragraph {
+	text-align:left;
+	font-size: 0.8em;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+	
