@@ -97,7 +97,7 @@ html, body {
 
 
 .doc-layout {
-	display: flex;
+	display: inline-block;
 	flex-flow: row wrap;
 	align: center;
 	padding-top: 20px;
