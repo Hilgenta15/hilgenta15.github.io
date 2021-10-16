@@ -43,19 +43,19 @@ html, body {
 
 .button-layout {
 	display: flex;
-    flex-flow: row wrap;
+	flex-flow: row wrap;
 	text-align: center;
-    justify-content: center;
-    width: 100%;
+	justify-content: center;
+	width: 100%;
 	padding-top: 20px;
 }
 
 .home-buttons {
 	background-color: #A9D0F5;
 	color: black;
-    margin: 10px;
-    border: 5px solid #dcdcdc;
-    width: 200px;
+	margin: 10px;
+	border: 5px solid #dcdcdc;
+	width: 200px;
 }
 
 
@@ -97,28 +97,27 @@ html, body {
 
 
 .doc-layout {
-	display: inline;
-	flex-flow: row wrap;
-	align: center;
+	display: flex;
+	margin: auto;
 	padding-top: 20px;
 	max-width: 750px;
 }
 
 .doc-img-block {
 	display: flex;
-    flex-flow: wrap;
+	flex-flow: wrap;
 	align-items: center;
-    justify-content: center;
-    width: 100%;
+	justify-content: center;
+	width: 100%;
 	padding-top: 20px;
 }
 
 .doc-img-sub {
 	display: flex;
-    flex-flow: wrap;
+	flex-flow: wrap;
 	text-align: center;
-    justify-content: center;
-    width: 100%;
+	justify-content: center;
+	width: 100%;
 	padding-bottom: 20px;
 }
 
